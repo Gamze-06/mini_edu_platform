@@ -1,16 +1,46 @@
-# React + Vite
+🎓 Mini Edu Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mini Edu Platform, Udemy benzeri eğitim satın alma ve Uber benzeri eğitmen–öğrenci eşleştirme mantığını göstermek amacıyla geliştirilmiş bir demo projedir.
 
-Currently, two official plugins are available:
+Proje, gerçek veritabanı ve ödeme altyapısı kullanmadan mimari yaklaşım ve iş akışlarını ön plana çıkarmayı hedefler.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Özellikler
 
-## React Compiler
+Rol bazlı login (User / Instructor / Admin)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Eğitim listeleme ve satın alma (ödeme simülasyonu)
 
-## Expanding the ESLint configuration
+Satın alınan eğitimlerin görüntülenmesi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Canlı ders talebi ve eğitmen eşleştirme (simülasyon)
+
+🛠️ Kullanılan Teknolojiler
+
+React (Vite)
+
+React Router
+
+Context API
+
+Vanilla CSS
+
+🧠 Mimari Yaklaşım
+
+Komponent bazlı yapı
+
+Servis katmanı ile iş mantığının ayrılması
+
+Mock data kullanımı
+
+Rol bazlı yönlendirme
+
+Bu yapı, backend entegrasyonu ve gerçek ödeme sistemlerine uygun şekilde ölçeklenebilir.
+
+▶️ Çalıştırma
+npm install
+npm run dev
+
+📄 Not
+
+Bu proje bir ön eleme demo çalışmasıdır.
+Ödeme, eşleştirme ve kimlik doğrulama işlemleri simüle edilmiştir.
